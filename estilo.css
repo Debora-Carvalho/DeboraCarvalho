@@ -21,7 +21,9 @@ header {
     width: 100%; 
     height: 60px;
     background-color: rgba(255, 255, 255, 0.4); 
+    border-radius: 10px;
     z-index: 1001; 
+    margin: 0.1rem;
 }
 
 
@@ -31,7 +33,6 @@ nav {
     align-items: center; 
     padding: 1rem; 
 }
-
 
 .menu {
     list-style-type: none; 
@@ -43,6 +44,29 @@ nav {
     font-family: Inter;
     color:#FFFFFF;
     text-transform: uppercase;
+}
+
+.menu li a:hover {
+    color: #E13E99; 
+}
+
+.meus-perfis{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1 rem;
+}
+
+.meus-perfis img{
+    margin-right: 10px;
+}
+
+
+.logo{
+    margin: 0 1rem; 
+    font-family: Poppins;
+    color:#FFFFFF;
+    text-transform: uppercase; 
 }
 
 /* Estilo da seção principal */
@@ -60,10 +84,6 @@ nav {
     margin-top: 0;
 }
 
-/* .principal h1, .principal h2 {
-    margin-bottom: 1rem; 
-} */
-
 /* ícone do scrow */
 .principal img {
     margin-top: 1rem; 
@@ -75,10 +95,11 @@ nav {
 
 .principal h1{
     margin-top: 20rem;
-    margin-bottom: 0.5rem; 
+    margin-bottom: 0; 
     font-family: Poppins;
     color: #FFFFFF;
     font-size: 80px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
 }
 
 .principal h2{
@@ -92,16 +113,81 @@ nav {
 
 .faixa-subtitulo {
     background-color: #E13E99; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
     padding: 10px 20px; 
     border-radius: 10px; 
     width: fit-content;
     align-items: center;
     margin: 0 auto; 
+    text-align: center; 
 }
 
-.faixa h2 {
+.faixa-subtitulo h2 {
     margin: 0; 
 }
+
+
+/*Estilização da seção Sobre Mim"*/
+
+.sobre {
+    padding: 50px; /* Adiciona espaçamento interno */
+    display: flex;
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    align-items: flex-start; /* Alinha os itens ao topo verticalmente */
+}
+
+
+.sobre h3 {
+    font-family: Poppins;
+    font-size: 24px; /* Tamanho do título */
+    margin-bottom: 20px; /* Espaçamento inferior */
+}
+
+.sobre-texto-botao {
+    flex: 1; /* Ajusta a largura da coluna de texto e botão */
+    padding-right: 20px; /* Espaçamento à direita para separar as colunas */
+}
+
+.sobre p {
+    font-family: Quicksand;
+    font-size: 16px; /* Tamanho do texto */
+    line-height: 1.5; /* Espaçamento entre linhas */
+    margin-bottom: 20px; /* Espaçamento inferior */
+    text-align: justify;
+}
+
+.sobre-imagem-perfil {
+    flex: 1; /* Ajusta a largura da coluna da imagem */
+    display: flex;
+    justify-content: center; /* Centraliza a imagem horizontalmente */
+    align-items: center; /* Centraliza a imagem verticalmente */
+}
+
+.imagem-perfil {
+    width: 200px; 
+    height: auto; 
+    border-radius: 50%; 
+    margin-bottom: 20px; 
+}
+
+
+
+.botao-cv {
+    display: inline-block; /* Torna o botão um elemento de bloco para poder ajustar a largura */
+    padding: 10px 20px; /* Preenchimento interno */
+    background-color: #E13E99; /* Cor de fundo do botão */
+    font-family: Poppins;
+    color: #ffffff; /* Cor do texto do botão */
+    font-weight: 300;
+    text-decoration: none; /* Remove sublinhado do texto */
+    border-radius: 5px; /* Bordas arredondadas */
+    transition: background-color 0.3s; /* Adiciona transição suave na mudança de cor */
+}
+
+.botao-cv:hover {
+    background-color: #C7C8CC; /* Altera a cor de fundo ao passar o mouse por cima */
+}
+
 
 
 
