@@ -228,6 +228,8 @@ nav {
 
 .containers-skills {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 
 }
 
@@ -251,13 +253,39 @@ nav {
     margin-bottom: 20px;
 }
 
+/* estilização dos gráficos soft-skills */
 .graficos-soft-skills {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 3rem;
+    flex-wrap: wrap;
+    justify-content: center; 
+    gap: 2rem; 
 }
 
+.graficos-soft-skills > div {
+    flex: 1 1 40%; 
+    max-width: 300px; 
+}
+
+.graficos-soft-skills img {
+    max-width: 100%; 
+}
+
+/* estilização dos gráficos digitais-skills */
+.graficos-digitais-skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    gap: 2rem; 
+}
+
+.graficos-digitais-skills > div {
+    flex: 1 1 40%; 
+    max-width: 100px; 
+}
+
+.graficos-digitais-skills img {
+    max-width: 100%; 
+}
 
 
 
