@@ -61,12 +61,15 @@ nav {
     margin-right: 10px;
 }
 
-
 .logo{
     margin: 0 1rem; 
     font-family: Poppins;
     color:#FFFFFF;
     text-transform: uppercase; 
+}
+
+.logo:hover {
+    color: #E13E99; 
 }
 
 /* Estilo da seção principal */
@@ -142,7 +145,7 @@ nav {
     margin-bottom: 20px; 
 }
 
-.faixa-colorida {
+.sobre .faixa-colorida {
     width: 100px;
     height: 8px; 
     background-color: #E13E99; 
@@ -194,7 +197,49 @@ nav {
     background-color: #E68FBF;
 }
 
+/* Estilização da seção Skills */
 
+.skills {
+    height: 100vh;
+    padding: 80px; 
+    text-align: center;
+    background-color: #E13E99;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skills h3 {
+    font-family: Poppins;
+    color: #FFFFFF;
+    font-size: 50px; 
+    margin-bottom: 20px; 
+}
+
+.skills .faixa-colorida {
+    width: 100px;
+    height: 8px; 
+    background-color: #E68FBF; 
+    border: none; 
+    border-radius: 10px;
+    margin-bottom: 40px;
+    display: inline-block;
+}
+
+.containers-skills {
+    display: flex;
+}
+
+.soft-skills,
+.digitais-skills {
+    flex: 1;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    margin: 10px; 
+    padding: 20px; 
+    width: 45vw; 
+    height: 50vh;
+}
 
 
 
