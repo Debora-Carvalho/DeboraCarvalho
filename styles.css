@@ -329,7 +329,7 @@ nav {
     padding: 20px;
     display: flex;
     flex-direction: column;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 .cartao-projeto h4 {
@@ -364,6 +364,31 @@ nav {
 .cartao-projeto a:last-child {
     margin-right: 0;
 }
+
+.botao-projeto-visualizar, .botao-projeto-github {
+    display: inline-block;
+    background-color: #E13E99;
+    font-family: Poppins;
+    font-weight: 300;
+    color: #FFFFFF;
+    text-decoration: none; 
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin-right: 10px; 
+    transition: background-color 0.3s; 
+}
+
+.botao-projeto-visualizar:hover, .botao-projeto-github:hover {
+    background-color: #E68FBF;
+}
+
+.botao-projeto-visualizar i, .botao-projeto-github i {
+    margin-right: 5px; 
+    color: #FFFFFF;
+}
+
+
+
 
 
 
