@@ -189,7 +189,7 @@ nav {
     color: #FFFFFF; 
     font-weight: 300;
     text-decoration: none; 
-    border-radius: 5px; 
+    border-radius: 10px; 
     transition: background-color 0.3s; 
 }
 
@@ -345,7 +345,8 @@ nav {
 }
 
 .descricao-projeto {
-    font-size: 16px;
+    font-family: Quicksand;
+    font-size: 18px;
     margin-bottom: 10px;
 }
 
@@ -391,7 +392,7 @@ nav {
     font-weight: 300;
     color: #FFFFFF;
     text-decoration: none; 
-    border-radius: 20px;
+    border-radius: 10px;
     padding: 10px 20px;
     margin-right: 10px; 
     transition: background-color 0.3s; 
@@ -406,8 +407,71 @@ nav {
     color: #FFFFFF;
 }
 
+/*estilização da seção de contatos*/
+.contatos {
+    background-color: #E13E99;
+    height: 80vh;
+    padding: 80px; 
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+}
 
+.contatos-titulo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+.contatos h3 {
+    font-family: Poppins;
+    font-size: 60px; 
+    color: #FFFFFF;
+    margin-bottom: 20px; 
+    text-align: center;
+}
+
+#estrelaE-contatos-titulo,
+#estrelaD-contatos-titulo {
+    color: #FFFFFF;
+    font-size: 24px; 
+} 
+
+.contatos-container-tag {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    margin: 0 0 0 5rem;
+}
+
+.contatos-container-tag p {
+    font-family: Quicksand;
+    font-size: 40px;
+    color: #FFFFFF;
+    line-height: 1.5; 
+    margin: 0 0 40px; 
+}
+
+.tag {
+    font-family: Quicksand;
+    font-size: 26px;
+    text-transform: uppercase;
+    background-color: #E13E99;
+    color: #ffcde8;
+    border: 2px solid #E68FBF;
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin: 5px;
+    max-width: max-content; 
+    white-space: nowrap;
+    transition-duration: 0.3s;
+}
+
+.tag:hover{
+    background-color: #ffcde8;
+    color: #E13E99;
+    border: 2px solid #ffcde8;
+}
 
 
 
