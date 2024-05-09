@@ -38,11 +38,12 @@ nav {
     display: flex; 
 }
 
-.menu li {
+.menu li a {
     margin: 0 1rem; 
     font-family: Inter;
     color:#FFFFFF;
     text-transform: uppercase;
+    text-decoration: none;
 }
 
 .menu li a:hover {
@@ -65,10 +66,14 @@ nav {
     font-family: Poppins;
     color:#FFFFFF;
     text-transform: uppercase; 
+    transition: all 0.3s ease-in-out;
 }
 
 .logo:hover {
-    color: #E13E99; 
+    color: #FFFFFF; 
+    font-family: Twinkle Star;
+    font-size: 2rem;
+    text-transform: none;
 }
 
 /* Estilo da seção principal */
@@ -87,13 +92,18 @@ nav {
 }
 
 /* ícone do scrow */
-.principal img {
+#botao-scrow {
     margin-top: 1rem; 
     position: fixed;
     bottom: 1rem; 
     right: 1rem; 
+    transition: 0.3s;
 }
 
+footer:hover ~ #botao-scrow {
+    -webkit-transform: rotateZ(-180deg);
+    transform: rotateZ(-180deg);
+}
 
 .principal h1{
     margin-top: 30%;
