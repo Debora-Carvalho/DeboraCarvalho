@@ -61,15 +61,16 @@ nav {
     margin-right: 10px;
 }
 
-.logo{
+.logo a {
     margin: 0 1rem; 
     font-family: Poppins;
     color:#FFFFFF;
     text-transform: uppercase; 
+    text-decoration: none;
     transition: all 0.4s ease-in-out;
 }
 
-.logo:hover {
+.logo a:hover {
     color: #FFFFFF; 
     font-family: Twinkle Star;
     font-size: 2rem;
