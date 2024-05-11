@@ -2,7 +2,7 @@
   <img loading="lazy" src="https://github.com/Debora-Carvalho/DeboraCarvalho/assets/104103793/649fc75b-3659-4ff0-9563-868d8765cdce" alt="Capa do projeto 'Meu Portfólio'"/>
 </p>
 
-<h1>☕Portfólio Pessoal</h1>
+<h1>🌸Portfólio Pessoal</h1>
 <h3>📄Sobre a página</h3>
 <p> 
   Trata-se de meu Portfólio pessoal em estilo criativo que apresenta minha formação, habilidades, conhecimento em tecnologias, projetos recentes, interesses e informações de contato. Ainda, é possível acessar meu currículo para detalhes adicionais.
